@@ -3,6 +3,7 @@ const devRules = !development ? { "no-console": "warn" } : { "no-console": 0 };
 const rules = {
   camelcase: 0,
   "no-use-before-define": 0,
+  "@typescript-eslint/no-use-before-define": "error",
   "@typescript-eslint/unbound-method": 0,
   "@typescript-eslint/indent": 0,
   "@typescript-eslint/ban-ts-comment": 0,
